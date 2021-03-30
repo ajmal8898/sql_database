@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8FFEB3B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#D2100F0F"
+        android:text="User Registation"
+        android:textColor="#F1093F"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ic_launcher_background"
+        android:clickable="true"
+        android:onClick="addUser"
+        android:text="ADD USER"
+        android:textColor="#0C0E0E"
+        app:backgroundTint="#EE3DF311" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ic_launcher_background"
+        android:clickable="true"
+        android:onClick="viewUser"
+        android:text="VIEW ALL USERS"
+        android:textColor="#7A1C1B1B"
+        app:backgroundTint="#FF5722" />
+
+</LinearLayout>

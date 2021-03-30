@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".Save">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="30dp"
+
+        android:background="#CDCDDC39"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/etnumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+
+        android:background="#AECDDC39"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:hint="Phone number"
+        android:inputType="text|phone"
+        android:paddingLeft="10dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ic_launcher_background"
+        android:clickable="true"
+        android:onClick="saveData"
+        android:text="submit"
+        app:backgroundTint="#F8092D" />
+
+</LinearLayout>
